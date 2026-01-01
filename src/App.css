@@ -9,24 +9,29 @@ body {
 }
 
 .app {
-  display: flex;
-  justify-content: center;
+  display: grid;
   align-items: center;
-  flex-direction: column;
+  text-align: center;
   gap: 1vw;
 }
 
 .app label {
   text-align: center;
-  
 }
+
 .app input {
   width: 100%;
   text-align: center;
+  height: 3vh;
+  border: 0;
+  border-bottom: 2px solid;
+  margin-bottom: 1vh;
 }
 
-.app button {
+button {
  text-align: center;
+ height: 4vh;
+ border: 0;
 }
 
 ul{
@@ -39,3 +44,24 @@ ul{
 li {
   text-align: start;
 }
+
+.formDiv button {
+  margin-top: 2vh;
+  width: 100%;
+}
+
+table {
+  margin-top: 2vh;
+}
+
+table button {
+  margin: 1vw;
+  border: 0;
+  border-radius: 10%;
+}
+
+td, th {
+  outline: 1px solid;
+  padding: 1vw;
+}
+  
